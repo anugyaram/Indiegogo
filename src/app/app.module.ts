@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,9 +14,12 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

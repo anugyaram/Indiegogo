@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-color-text: #3a3a3a;
+$color-text: #000;
+$secondary-text-color: #D9117F;
+$grey-color: #9c9c9c;
+
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: Roboto, sans-serif; 
+    color: $primary-color-text;
+  }
+
+.container {
+    margin: 3%;
+    display:flex;
+}
+
+.flex-spacer {
+    flex: 1 1 auto;
+}
