@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
 
 import { MainComponent } from './main/main.component';
 import { NavbarComponent} from './/navbar/navbar.component';
@@ -25,7 +26,8 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    MatDividerModule
+    MatDividerModule,
+    MatButtonModule
     
   ],
   providers: [],

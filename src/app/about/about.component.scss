@@ -5,6 +5,13 @@
     margin-right: 10px;
 }
 
+h2{
+    color: #000;
+    font-weight: bolder;
+}
+.des{
+    font-size: 130%;
+}
 p{
     margin-bottom: 2px;
 }
@@ -23,4 +30,25 @@ p{
 .price{    
     font-weight: bold;
     font-size: larger;
+}
+
+button{
+    background-color: #fff;
+    height: 50px;
+    width: 30%;
+    border-color: #b9b9b9;
+    font-size: 90%;
+}
+
+button i{
+    font-size: 120%;
+}
+
+.icons-lg {
+    float: right;
+    margin: 8px 10px;
+}
+.fa-link{
+    float: right;
+    margin: 11px 10px;
 }
