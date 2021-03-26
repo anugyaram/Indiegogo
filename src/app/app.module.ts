@@ -13,6 +13,8 @@ import { NavbarComponent} from './/navbar/navbar.component';
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { AboutComponent } from './about/about.component';
 import { PostersComponent } from './posters/posters.component';
+import { SubnavComponent } from './subnav/subnav.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { PostersComponent } from './posters/posters.component';
     NavbarComponent,
     VideoPlayerComponent,
     AboutComponent,
-    PostersComponent
+    PostersComponent,
+    SubnavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
